@@ -1,0 +1,5 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<ul class="nav navbar-nav">
+    <li th:each="product : ${products}"><span th:text="${product.name}">商品名称</span></li>
+</ul>
