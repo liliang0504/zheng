@@ -91,7 +91,7 @@ public class MybatisGeneratorUtil {
 			String targetProjectSqlMap = basePath + module + "/" + module + "-rpc-service";
 			context.put("tables", tables);
 			context.put("generator_javaModelGenerator_targetPackage", packageName + ".dao.model");
-			context.put("generator_sqlMapGenerator_targetPackage", packageName + ".dao.mapper");
+			context.put("generator_sqlMapGenerator_targetPackage", packageName + ".rpc.mapper");
 			context.put("generator_javaClientGenerator_targetPackage", packageName + ".dao.mapper");
 			context.put("targetProject", targetProject);
 			context.put("targetProject_sqlMap", targetProjectSqlMap);
