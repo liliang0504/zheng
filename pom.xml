@@ -25,11 +25,6 @@
         <module>zheng-upms</module>
         <module>zheng-cms</module>
         <module>zheng-pay</module>
-        <module>zheng-ucenter</module>
-        <module>zheng-wechat</module>
         <module>zheng-shop</module>
-        <module>zheng-api</module>
-        <module>zheng-message</module>
-        <module>zheng-demo</module>
     </modules>
 </project>
